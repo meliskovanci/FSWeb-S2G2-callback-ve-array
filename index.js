@@ -166,30 +166,9 @@ function UlkelerinKazanmaSayilari(/* kodlar buraya */) {
 /*  BONUS 2:  
 EnCokGolAtan() isminde bir fonksiyon yazın, `data` yı parametre olarak alsın ve Dünya kupası finallerinde en çok gol atan takımı döndürsün */
 
-function EnCokGolAtan(data) {
+function EnCokGolAtan() {
 	
-		let teamScores = {};
-	  
-		for (let i=0;i<data.length ;i++) {
-		  teamScores[i] = (teamScores[i] || 0) + team.goals;
-		}
-	  
-		let maxScore = 0;
-		let teamWithMaxScore = '';
-	  
-		for (let x=0 ; x<maxScore.length ; x++) {
-		  if (teamScores[x] > maxScore) {
-			maxScore = teamScores[x];
-			teamWithMaxScore = team;
-		  }
-		}
-	  
-		return teamWithMaxScore;
-	  }
-	  console.log(EnCokGolAtan(fifaData));
-    
-	
-
+}
 
 
 /*  BONUS 3: 
